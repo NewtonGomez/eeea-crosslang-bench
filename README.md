@@ -1,8 +1,28 @@
 # eeea-crosslang-bench: Comparative Analysis of the Explicit Exploration Strategy (EES)
 
-This repository contains the cross-language benchmark suite developed to evaluate and validate the mathematical correctness and computational efficiency of the **Explicit Exploration Strategy (EES)** algorithm. The project compares the original implementation in **R** (the CRAN `EEEA` package) against the port developed in **Python** (`eeea-py`).
+This repository contains the cross-language benchmark suite developed to evaluate and validate the mathematical correctness and computational efficiency of the **Explicit Exploration Strategy (EES)** algorithm. The project compares the original implementation in **R** (the CRAN [`EEEA`](https://github.com/cran/EEEA/tree/master) package) against the port developed in **Python** ([`eeea-py`](https://github.com/rogelio-sg/eeea-py)).
 
-This work was developed as part of graduate studies in Metaheuristics, with the purpose of ensuring that the Python version maintains mathematical rigor while matching or improving computational performance.
+This work was developed as part of studies in Metaheuristics, with the purpose of ensuring that the Python version maintains mathematical rigor while matching or improving computational performance.
+
+---
+
+## Authors and References
+
+This validation project is based on the research and engineering work from the following repositories and publications:
+
+---
+
+### Original Mathematical Implementation (R - CRAN)
+
+* **Authors:** Rogelio Salinas-Gutiérrez and Angel Eduardo Muñoz Zavala.
+* **Article:** *An explicit exploration strategy for evolutionary algorithms* (2023). Applied Soft Computing, Vol. 140, 110230.
+* **DOI:** [10.1016/j.asoc.2023.110230](https://www.google.com/search?q=https://doi.org/10.1016/j.asoc.2023.110230)
+
+### Homologous Library Implementation (Python)
+
+* **Authors:** Victoria Galvan Delgadillo, Enrique Anael Gómez Linares, Carlos Alberto López Hernández, Jessica Victoria Martínez Medina, Juan de Dios Rivas Hernández, Ilse Daniela Saldívar Olvera, and Rogelio Salinas Gutiérrez.
+* **Software:** `eeea-py`: Explicit Exploration and Evolutionary Algorithms in Python (2026).
+* **Repository:** [github.com/rogelio-sg/eeea-py](https://www.google.com/search?q=https://github.com/rogelio-sg/eeea-py)
 
 ---
 
